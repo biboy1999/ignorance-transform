@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ignorance-transform"
+version = "0.0.1"
+authors = [
+  { name="biboy1999" },
+]
+description = "A utility package for writing ignorance transform"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/biboy1999/ignorance-transform"
+"Bug Tracker" = "https://github.com/biboy1999/ignorance-transform/issues"
